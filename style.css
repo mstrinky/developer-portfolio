@@ -1,4 +1,4 @@
-h1{
+body{
     font-family: 'Oswald', sans-serif;
 }
 .color-change{
@@ -27,5 +27,11 @@ section{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-big{
+    background-image: url(dream-bg.png);
+}
+
+
+
     
     
