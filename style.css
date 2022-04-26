@@ -1,19 +1,24 @@
 body{
     font-family: 'Oswald', sans-serif;
+    background-color: rgb(82, 104, 230);
+    
 }
 .color-change{
    color:darkred;
 }
-section{
-    display:flex;
-    
+.flexible-container{
+    display: flex;
 }
+
+    
+
 .half-width{
     width:50%;
     padding: 3%;
 }
 .half-width img{
     width:30%;
+    
 }
 .link-button{
     text-decoration: none;
@@ -32,9 +37,34 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-#some-space{
-    text-align: left;
+.experience-item{
+    box-shadow:10px 10px 50px darkred;
+    width: 50%;
+    margin: 5%;
+    padding:50px;
+   
 }
+
+
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-developer-experience{
+    border-image: linear-gradient(red,orange);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+#stack-developer-experience{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,aqua);
+    border-image-slice:1;
+}
+
+
+
+
 
 
 
