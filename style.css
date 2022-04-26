@@ -64,7 +64,7 @@ body{
     border-image: linear-gradient(blue,aqua);
     border-image-slice:1;
 }
-p{
+footer p{
     text-align: center;
 }
 
