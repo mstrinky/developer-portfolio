@@ -1,6 +1,7 @@
 body{
     font-family: 'Oswald', sans-serif;
     background-color: rgb(82, 104, 230);
+    margin: 0%;
     
 }
 .color-change{
@@ -8,6 +9,7 @@ body{
 }
 .flexible-container{
     display: flex;
+  
 }
 
     
@@ -31,6 +33,7 @@ body{
 .top-banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+    
 }
 .dream-big{
     background-image: url(dream-bg.png);
@@ -60,6 +63,9 @@ body{
     border-left: 5px solid;
     border-image: linear-gradient(blue,aqua);
     border-image-slice:1;
+}
+p{
+    text-align: center;
 }
 
 
