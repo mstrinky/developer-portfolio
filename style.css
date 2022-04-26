@@ -31,14 +31,19 @@ body{
     font-weight: 700;
 }
 .top-banner{
-    background-image: url(top-banner.png);
+    background-image: url(exp-bg.png);
     background-repeat: no-repeat;
-    
+    background-position: left;
+    padding-left: 5%;
 }
+
+    
+
 .dream-big{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-right: 80px;
 }
 .experience-item{
     box-shadow:10px 10px 50px darkred;
